@@ -1,0 +1,158 @@
+body {
+	direction: rtl!important;
+	text-align: right!important;
+	font-family: 'Assistant', Arial, Helvetica, sans-serif;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+	float:right !important;
+}
+.pull-opp-dir {
+	float:left;
+}
+.pull-dir {
+	float:right;
+}
+.GolfCar {
+	float:right;
+}
+.flag_icon {
+	float:left;
+}
+.flag_box {
+	float:left;
+	padding-left:20px;
+}
+.select_lang {
+	float:left;
+}
+.Padding-dir-5{
+	padding-right:5px;
+}
+.Padding-opp-dir-5{
+	padding-left:5px;
+}
+.Padding-dir-7{
+	padding-right:7px;
+}
+.Padding-opp-dir-7{
+	padding-left:7px;
+}
+.Padding-dir-9{
+	padding-right:9px;
+}
+.Padding-opp-dir-9{
+	padding-left:9px;
+}
+.modal-header .close {
+	float:left;
+}
+.Padding-dir-20 {
+	padding-left:20px;
+}
+.Border-dir {
+	border-left: 1px solid #C4D9CE;
+	border-right:none;
+}
+.navbar-toggle {
+	float:left !important;
+}
+
+.login_title {
+	text-align: right;
+	margin-right:15px;
+}
+
+.navbar, .navbar-fixed-top, .navbar-inverse, .navbar-custom, .navbar-header {
+	text-align:right;
+}
+.Ident {
+
+    float: right;
+	background-image: url(../images/ident.png);
+	margin-left: 0px;
+}
+.my_orders_panel_title_box {
+	border-right: 1px solid #C4D9CE;
+	border-left:none;
+	padding-right:10px;
+	margin-right:3px;
+}
+div#SUBMIT .btn {
+	margin-left:15px;
+}
+.add-car {
+	float:right;
+        background-image: url(../images/add-car.png);
+}
+.add-golf {
+    float: right;
+    background-image: url(../images/add-golf.png);
+}
+.add-friend {
+     float: right;
+    background-image: url(../images/add-friend.png);
+}
+
+.orders_golfer_club_type .btn-primary {
+	float: right;
+}
+.orders_golfer_club_type .active {
+	float: right;
+}
+.orders_golfer_club_type {
+	max-width: 600px;
+    clear: left;
+}
+
+@media (min-width: 768px) {
+.navbar-nav {
+    float: left !important;
+}
+    
+.navbar-header {
+    float: right !important;
+}  
+    
+.navbar-nav>li {
+    float: right;
+}      
+}
+
+.navbar-brand {
+    float:right;
+}
+
+
+.modal {
+	font-size: 12px;
+  }
+  .modal > .header {
+	width: 100%;
+	border-bottom: 1px solid gray;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+  }
+  .modal > .content {
+	width: 100%;
+	padding: 10px 5px;
+  }
+  .modal > .actions {
+	width: 100%;
+	padding: 10px 5px;
+	margin: auto;
+	text-align: center;
+  }
+  .modal > .close {
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	padding: 2px 5px;
+	line-height: 20px;
+	right: -10px;
+	top: -10px;
+	font-size: 24px;
+	background: #ffffff;
+	border-radius: 18px;
+	border: 1px solid #cfcece;
+  }

@@ -1,0 +1,1326 @@
+@charset "utf-8";
+
+/* CSS Document */
+html {
+	background-color: #EEEEEE;
+}
+
+body {
+	color: #333333;
+	background-color: #EEEEEE;
+	font-family: 'Assistant', Arial, Helvetica, sans-serif;
+}
+.mimi{
+	background-color:black;
+	color: #333333;
+
+}
+.form_title {
+	font-size: 26px;
+	color: #003C37;
+	padding: 5px 20px 10px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.form_subtitle {
+	font-size: 20px;
+	padding: 20px 0px 10px 0px;
+}
+
+.butcenter {
+	max-width: 600px;
+	margin: auto;
+}
+
+.but {
+	padding-right: 2px;
+	border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+}
+
+.TopDashboard .btn-success {
+	background-image: none;
+	background-color: #003B36;
+	font-size: 22px;
+	font-weight: bold;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+	border-style: none;
+}
+
+.TopDashboard>.btn-success>a:hover {
+	background-image: none !important;
+	background-color: transparent !important;
+}
+
+.TopDashboard {
+	background-image: url(../images/dashboard-top-1170.jpg);
+	background-position: top center;
+	height: 220px;
+	margin-left: -15px;
+	margin-right: -15px;
+	background-position-y: -40px;
+}
+
+.TopDashboard .btn:hover,
+.btn.hover {
+	background-color: #002D29;
+}
+
+.btn {
+	background-image: none;
+	background-color: #228C3D;
+	border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+}
+
+.btn:hover,
+.btn.hover {
+	background-color: #18672D;
+}
+
+.btn-default {
+	background-color: #fff;
+	border-color: #A3C2B1;
+	text-shadow: none;
+}
+
+.btn-default:hover,
+.btn-default.hover {
+	background-color: #C5DACB;
+	border-color: #A3C2B1;
+
+}
+
+.thumbnail,
+.img-thumbnail {
+	border-color: #A3C2B1;
+}
+
+.thumbnail {
+	margin-bottom: 0px;
+}
+
+.thumbnail-current {
+	border: 1px solid #228c3d;
+	background-color: #f5f3e6;
+}
+
+.day_box_title {
+	color: #003C37;
+	font-size: 18px;
+}
+
+.day_name {
+	font-size: 13px;
+}
+
+a.thumbnail:hover {
+	border-color: #228C3D !important;
+	background-color: #DFECE2;
+}
+
+a:hover {
+	border-color: #228C3D !important;
+	text-decoration: none;
+}
+
+.thumbnaildisabled {
+	display: block;
+	padding: 4px;
+	margin-bottom: 0px;
+	line-height: 1.42857143;
+	background-color: #E4E4E4;
+	color: #ADADAD;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	cursor: none;
+}
+
+a:hover {
+	border-color: #D4D4D4 !important;
+	text-decoration: none !important;
+}
+
+.disabledtext {
+	color: #ADADAD
+}
+
+
+.container .jumbotron {
+	border-radius: 0px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.rss_title {
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.rss_time {
+	margin-top: 10px;
+	color: #666666;
+	font-size: 12px;
+}
+
+.rss_text {
+	color: #28734D;
+	font-size: 14px;
+}
+
+.player_title {
+	color: #333333;
+	font-size: 16px;
+}
+
+.player_name {
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.player_text {
+	color: #333333;
+}
+
+.MarginBottom20 {
+	margin-bottom: 20px;
+}
+
+.PaddingBottom20 {
+	padding-bottom: 20px;
+}
+
+.FooterBottom {
+	background-color: #333333;
+	color: #fff;
+	font-size: 12px;
+	padding-top: 10px;
+	margin: auto;
+}
+
+.FooterTextBottom {
+	padding-bottom: 10px;
+}
+
+.PaddingLeft20 {
+	padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+	.BorderLeft {
+		border-left: 0px;
+		border-bottom: 1px solid #C4D9CE;
+		padding-bottom: 20px;
+	}
+}
+
+.FooterBg {
+	margin-left: -15px !important;
+	margin-right: -15px !important;
+}
+
+.navbar,
+.navbar-fixed-top,
+.navbar-inverse,
+.navbar-custom,
+.navbar-header {
+	background-color: #228C3D;
+	background-image: none;
+	text-align: left;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background-color: transparent;
+}
+
+.navbar-toggle {
+	float: right;
+}
+
+.container>.navbar-header {
+	margin-right: 0px;
+	margin-left: 0px
+}
+
+.FooterTextBottom a {
+	color: #fff;
+}
+
+.FooterTextBottom a:hover {
+	color: #CCC;
+}
+
+.PaddingLeft5 {
+	padding-left: 5px !important;
+}
+
+.day_box {
+	padding: 7px;
+}
+
+.DaysSection {
+	margin: -5px;
+}
+
+.my_orders_panel_title {
+	background-color: #DBE8E1;
+	margin: 0px;
+}
+
+.my_orders_panel {
+	background-color: #fff;
+	border: 1px solid #C4D9CE;
+	margin-top: 15px;
+}
+
+.my_orders_panel_title_date {
+	font-size: 24px;
+	color: #003C37;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 3px;
+}
+
+.my_orders_panel_title_box {
+	color: #003C37;
+	line-height: 110%;
+	margin-top: 5px;
+	margin-right: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #C4D9CE;
+}
+
+.my_orders_golfer_name {
+	padding: 10px 10px 5px 10px;
+	color: #228C3D;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.orders_golfer_name_box {
+	clear: both;
+	height: 45px;
+	border-bottom: 1px solid #C4D9CE;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.orders_golfer_car_box {
+	border-bottom: 1px solid #C4D9CE;
+	margin-right: 10px;
+	margin-left: 10px;
+	min-height: 45px;
+}
+
+.orders_golfer_club_box {
+	margin-right: 10px;
+	margin-left: 10px;
+	min-height: 45px;
+	clear: both;
+}
+
+.add-car {
+	background-image: url(../images/add-car-eng.png);
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 5px 5px 15px 5px;
+}
+
+.add-golf {
+	background-image: url(../images/add-golf-eng.png);
+	width: 30px;
+	height: 25px;
+	float: left;
+	margin: 5px 5px 15px 5px;
+	background-position-x: left;
+	background-repeat: no-repeat;
+}
+
+.add-friend {
+	background-image: url(../images/add-friend-eng.png);
+	width: 30px;
+	height: 25px;
+	float: left;
+	margin: 5px 5px 15px 5px;
+	background-position-x: left;
+	background-repeat: no-repeat;
+}
+
+
+.CarAdded {
+	padding-bottom: 10px;
+}
+
+.order_panel .form_subtitle {
+	padding: 10px 0px 10px 0px !important;
+}
+
+.OrderCar {
+	padding-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.OrderGolf {
+	padding-top: 10px;
+	font-size: 16px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.OrderCarLink {
+	text-decoration: none !important;
+	color: #333;
+}
+
+div#remove_golfer_btn .btn-sm {
+	padding: 2px 10px;
+	margin: 10px 0px 0px 0px;
+}
+
+.orders_golfer_club_type {
+	margin-bottom: 5px;
+	max-width: 600px;
+	clear: right;
+}
+
+.my_orders_golfer_clubs {
+	padding: 0px 10px 0px 0px;
+}
+
+.my_orders_club_car {
+	padding: 0px 10px 0px 0px;
+}
+
+.my_orders_footer {
+	padding: 10px;
+}
+
+.my_orders_footer {
+	height: 56px;
+}
+
+.Ident {
+	padding-right: 3px;
+	margin-top: -5px;
+	vertical-align: top;
+	background-image: url(../images/ident-left.png);
+	height: 20px;
+	width: 20px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 13px;
+}
+
+.TextIdent {
+	padding-right: 5px;
+	padding-top: 3px;
+}
+
+.my_orders_golfer_box {
+	border-bottom: 1px solid #C4D9CE;
+	padding-bottom: 5px;
+}
+
+.orders_golfer_box {
+	background-color: #fff;
+	border: 1px solid #C4D9CE;
+	margin-bottom: 15px;
+}
+
+.Name {
+	padding-right: 3px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #B4D8BD;
+}
+
+.navbar-inverse .navbar-toggle {
+	border: none;
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.navbar-inverse {
+	border-color: #228C3D;
+}
+
+.navbar-inverse .navbar-collapse {
+	border-color: #228C3D;
+}
+
+.select_lang {
+	color: #228C3D;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.select_lang a {
+	color: #228C3D;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.select_lang a:hover {
+	color: #1B7030;
+}
+
+.login_title {
+	color: #333333;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 434px;
+}
+
+.login_box {
+	text-align: center;
+}
+
+.user_name {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.textField {
+	font-size: 45px;
+}
+
+.user_password {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.forgot_pass a {
+	color: #228C3D;
+	font-size: 16px;
+}
+
+.forgot_pass a:hover {
+	color: #1B7030;
+}
+
+.site_rules_box {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.rules_text {
+	font-size: 16px;
+}
+
+.rules_text a {
+	color: #228C3D;
+}
+
+.rules_text a:hover {
+	color: #1B7030;
+	text-decoration: underline !important;
+}
+
+.form-group {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.form-fields {
+	padding: 0px !important;
+}
+
+.enterBtn {
+	text-align: center !important;
+}
+
+.btn-enter {
+	background-color: #003B36;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.btn-info {
+	border: 0px !important;
+}
+
+.btn-sm {
+	border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+}
+
+.btn-reg {
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+
+.newcustomer_lbl {
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.NoMargin {
+	margin: 0px !important;
+}
+
+.login {
+	background-image: url(../images/bg-login.jpg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	min-height: 292mm;
+
+	background-color: #cccccc;
+	font-family: 'FbGofanSansRegular';
+	background-color: white;
+	background-blend-mode: multiply;
+	/* background-position: center; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 !important;
+
+
+}
+
+.selected_date {
+	font-size: 16px;
+	font-weight: bold;
+	color: #003C37;
+	text-align: center;
+}
+
+.Padding-dir-5 {
+	padding-left: 5px;
+}
+
+.Padding-opp-dir-5 {
+	padding-right: 5px;
+}
+
+.Padding-dir-7 {
+	padding-left: 7px;
+}
+
+.Padding-opp-dir-7 {
+	padding-right: 7px;
+}
+
+.Padding-opp-dir-9 {
+	padding-right: 9px;
+}
+
+.Padding-dir-9 {
+	padding-left: 9px;
+}
+
+.form-horizontal {
+	padding: 70px 657px 159px 151px;
+}
+
+.form-horizontal .form-group {
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+
+.form-control {
+	margin-top: -5px;
+}
+
+.form-address {
+	padding: 10px 0px 0px 0px;
+	font-size: 20px;
+	margin-bottom: -30px;
+}
+
+div#SUBMIT .btn {
+	width: 120px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.Side {
+	min-height: 10px;
+}
+
+@media (max-width: 500px) {
+	.selected_date {
+		font-size: 14px;
+	}
+}
+
+.NoPadding {
+	padding: 0px;
+}
+
+.hour {
+	font-size: 22px;
+}
+
+.Text14Green {
+	font-size: 14px;
+	color: #003C37;
+}
+
+.hour_list_panel {
+	background: #FFF;
+	border: 1px solid #C4D9CE;
+}
+
+.hour_value {
+	font-size: 22px;
+	padding: 7px;
+	text-align: center;
+}
+
+.hour_detail_box {
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	height: 50px;
+	padding-top: 5px;
+}
+
+.hour_detail_box_disabled {
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	height: 74px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.hour_detail_green {
+	background-color: #E4EDE9;
+}
+
+.hour_list_panel .row {
+	margin: 0px;
+}
+
+.ClosedYard {
+	background-color: #E6E6E6;
+	color: #999999;
+}
+
+.Text13 {
+	font-size: 13px;
+}
+
+.disabled {
+	line-height: 90%;
+}
+
+.GolfCar {
+	width: 18px;
+	min-height: 10px;
+	float: left;
+}
+
+.order_box {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.order_box .btn {
+	padding: 3px 12px !important;
+}
+
+.input-numner {
+	border: 1px solid #C4D9CE !important;
+	height: 30px !important;
+}
+
+.magnify {
+	margin-top: -2px;
+}
+
+.golfer_mate_name {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.modal-header {
+	background-color: #228C3D;
+	padding: 8px 15px !important;
+	color: #FFFFFF;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: none;
+}
+
+.modal-header .close {
+	color: #fff;
+	text-shadow: none;
+	opacity: 0.7;
+	margin-top: 1px;
+	float: right;
+}
+
+.modal-header .close:hover {
+	opacity: 1;
+	color: #fff;
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		clear: both;
+	}
+
+	.hour_detail_box {
+		height: 90px;
+	}
+
+	.hour_value {
+		padding-top: 30px;
+	}
+
+	.ClosedYard .hour_value {
+		padding-top: 7px !important;
+	}
+
+	.order_box {
+		padding-top: 30px;
+	}
+
+	.form-horizontal {
+		padding: 70px 657px 159px 151px;
+	}
+
+	.form-address {
+		padding: 10px 0px 0px 0px;
+	}
+
+}
+
+div#SUBMIT .btn {
+	margin-right: 15px;
+}
+
+.pull-opp-dir {
+	float: right;
+}
+
+.pull-dir {
+	float: left;
+}
+
+.text-dir {
+	text-align: left;
+}
+
+.flag_icon {
+	float: right;
+}
+
+.flag_box {
+	float: right;
+	padding-right: 20px;
+}
+
+.select_lang {
+	float: right;
+}
+
+.Padding-dir-20 {
+	padding-right: 20px;
+}
+
+.Border-dir {
+	border-right: 1px solid #C4D9CE;
+}
+
+.navbar-toggle {
+	margin-right: 0px !important;
+}
+
+.registration {
+	padding-top: 51px;
+	padding-bottom: 30px;
+}
+
+.DateCenter {
+	margin: 0 auto;
+	width: 250px;
+	padding-top: 10px;
+}
+
+.Devider {
+	border-bottom: 1px solid #C4D9CE;
+	height: 10px;
+}
+
+.orders_golfer_club_type .btn {
+	background-color: #fff;
+	color: #999;
+}
+
+.orders_golfer_club_type .btn-primary {
+	border-color: #C4D9CE;
+	background-color: #fff;
+	float: left;
+	width: 65px;
+}
+
+.orders_golfer_club_type .active {
+	background-color: #CFE0D8;
+	color: #000;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	float: left;
+	width: 65px;
+}
+
+.ord_approval {
+	text-align: center;
+}
+
+.add_golfer_box {
+	margin-top: -15px;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: right;
+	}
+
+	.navbar>.container .navbar-brand,
+	.navbar>.container-fluid .navbar-brand {
+		margin-left: 3000px !important;
+	}
+}
+
+.maincontent {
+	margin-top: 50px;
+}
+
+.hour_detail:nth-child(2n) {
+	background-color: #E4EDE9;
+}
+
+.backward_box .btn-sm,
+.forward_box .btn-sm {
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #228C3D !important;
+}
+
+.starter_panel {
+	background-color: #fff;
+	border: 1px solid #C4D9CE;
+	margin-top: 15px;
+	height: auto;
+	width: 300px;
+}
+
+@media screen and (min-width: 400px) {
+	.starter_panel {
+		min-width: 360px;
+	}
+}
+
+.starter_panel_title {
+	background-color: #DBE8E1;
+	margin: 0px;
+	padding: 5px 10px 1px 10px;
+}
+
+.starter_panel_title_hour {
+	font-size: 24px;
+	color: #003C37;
+}
+
+.hour_picker {
+	display: inline-block;
+}
+
+.box_center {
+	text-align: center;
+}
+
+.starter_panel_title_line_1 {
+	line-height: 120%;
+}
+
+.PaddingTop3 {
+	padding-top: 3px;
+}
+
+.PartnersTitle {
+	border-bottom: 1px solid #C4D9CE;
+	height: 45px;
+	padding-top: 10px;
+	background: #eeeeee;
+}
+
+.PartnerRow {
+	border-bottom: 1px solid #C4D9CE;
+	min-height: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #fff;
+}
+
+.Notes {
+	color: #FF0000;
+}
+
+.starter_orders_golfer_name {
+	padding: 0px 10px 5px 10px;
+	color: #228C3D;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.has-error label {
+	color: #a94442;
+}
+
+/* !!!!!!! ENTRANCE-CONTROL !!!!!!!  */
+
+.btn-reg-side {
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-right: 7px;
+}
+
+.plus-icon {
+	background-image: url(../images/plus-icon.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	background-position: right;
+	height: 14px;
+	float: right;
+	margin-top: 5px;
+}
+
+*/ .refresh-icon {
+	background-image: url(../images/refresh-icon.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	background-position: right;
+	height: 17px;
+	float: right;
+	margin-top: 4px;
+}
+
+.buttons-entrance-control {
+	margin-top: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+.control-head {
+	border-bottom: 1px #C4D9CE solid;
+	background: #DBE8E1;
+	padding: 5px 0 5px 0;
+	font-size: 20px;
+
+}
+
+.entrance-control-table {
+	background: #fff;
+	border: 1px #C4D9CE solid;
+	margin-top: 10px;
+	min-height: 100px;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.control-line {
+	font-size: 18px;
+	padding: 15px 0 0 0;
+}
+
+.devider-control {
+	border-bottom: 1px #C4D9CE solid;
+	clear: both;
+	margin: 0 10px;
+	height: 15px;
+	padding-top: 15px;
+}
+
+.name-control {
+	color: #228C3D;
+	font-weight: 600;
+}
+
+.camera-icon {
+	background-image: url(../images/camera-icon.png);
+	background-repeat: no-repeat;
+	width: 19px;
+	height: 17px;
+	position: absolute;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+.approved-icon {
+	background-image: url(../images/approved-icon.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center;
+	height: 17px;
+	float: right;
+	margin-top: 4px;
+}
+
+.forbidden-icon {
+	background-image: url(../images/forbidden-icon.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center;
+	height: 18px;
+	float: right;
+	margin-top: 4px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.thumb-member {
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+.entrance-approved {
+	color: #218C3D;
+	font-size: 26px;
+}
+
+.entrance-not-approved {
+	color: #FF0000;
+	font-size: 26px;
+}
+
+
+
+@media (min-width: 768px) {
+	#member-img .modal-dialog {
+		width: min-content;
+		margin: 30px auto;
+	}
+
+	#member-entrance-img .modal-dialog {
+		width: min-content;
+		margin: 30px auto;
+	}
+}
+
+
+/* !!!!!!! END-ENTRANCE-CONTROL  !!!!!!!  */
+
+
+/* !!!!!!! GDWEBCRSDRY-NEW  !!!!!!!  */
+.month-selection {
+	border-right: 1px #C4D9CE solid;
+	border-top: 1px #C4D9CE solid;
+	margin-bottom: 40px;
+	font-size: 18px;
+	line-height: 200%;
+	display: inline-block;
+	width: 100%;
+	border-bottom: 0;
+}
+
+.month-select {
+	text-align: center;
+	border-left: 1px #C4D9CE solid !important;
+	border-bottom: 1px #C4D9CE solid;
+}
+
+
+
+
+a .month-select {
+	color: #000;
+	border-bottom: 1px #C4D9CE solid;
+}
+
+
+
+a:hover .month-select {
+	background: #DFECE2;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.month-name {
+	color: #228C3D;
+	font-size: 24px;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.labelMessageError {
+	white-space: pre-line;
+	color: #d71515
+}
+
+/* !!!!!!! END-GDWEBCRSDRY-NEW  !!!!!!!  */
+.App {
+	font-family: sans-serif;
+	text-align: center;
+  }
+  
+  .navbar {
+	position: absolute;
+	background-color: #24252A;
+	width: 100%;
+	height: 46px;
+	left: 0px;
+	top: 0px;
+  }
+  
+  .loginicon {
+	position: absolute;
+	width: 80px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bolder;
+	color: black;
+	height: 40px;
+	left: 85%;
+	top: 10px;
+	background:#2bc6ff;
+	border-radius: 24px;
+	cursor: pointer;
+  }
+  
+  .loginicon:hover{
+	color: white;
+  }
+  
+  .login-form{
+	width: 100%;
+	display: flex ;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 30vh;
+  }
+  
+  .form-box {
+	margin-top: -56vh;
+	opacity: 80%;
+	background: green;
+	padding-right: 5px;
+	padding-left: 8px;
+	border-radius: 49px;
+	box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+  .login-text{
+	width: 100%;
+	color: white;
+	border-bottom: 2px solid white;
+	line-height: 30px;
+	width: 100%;
+	font-weight: bolder;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5vh;
+  }
+  
+  label {
+	color:white;
+	width: 100%;
+	text-align: center;
+  }
+  
+  .login-box{
+	border: 1px solid lightgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	padding: 2px;
+	padding-left: 10px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	margin: 5px;
+	font-size: 11pt;
+	background: transparent;
+	transition: 1s;
+	outline: none;
+  }
+  
+  .login-btn{
+	width: 75%;
+	justify-content: center;
+	align-items: center;
+	background-color:black;
+	color: white;
+	margin-top: 5px;
+	border-radius: 20px;
+	border: none;
+	font-size: 15pt;
+	font-weight: 700;
+	transition: 1s;
+	outline: none;
+	cursor: pointer;
+	margin-bottom: 20px;
+  }
+  
+  .login-btn:hover{
+	transform: scale(1.03);
+	letter-spacing: 4px;
+	background-color: #7FFFD4;
+	color: #1E90FF;
+  }
+  
+  .show {
+	display: block;
+	transition: 800ms;
+	opacity: 1;
+  }
+  
+  .show.active {
+	transform: translateY(100px) scale(0) rotateY(180deg);
+	opacity: 0;
+  }
+
+/* !!!!!!!  RTL START HERE !!!!!!!  */
