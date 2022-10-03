@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ApiForgotPassword } from '../RequestsApi'
 import { useNavigate } from 'react-router-dom';
+import Modal from "./UI-Comps/Modal"
 
 const ForgetPasswordA = ({ envDefaults,isShowForgetPassword, handleForgetPasswordClick }) => {
 
@@ -35,25 +36,46 @@ const ForgetPasswordA = ({ envDefaults,isShowForgetPassword, handleForgetPasswor
             )
     }
     return (
-        <div className={`${isShowForgetPassword ? "active" : ""} show`}>
-            <div className="login-form">
-                <div className="form-box solid">
-                    <form>
-                        <br></br>
-                        <input type="text" name="username" className="login-box" placeholder="הכנס שם משתמש"  onChange={(e)=>{setUsername(e.target.value)}} />
-                        <br></br>
-                        <button
-                            value="אישור" className="login-btn"
-                            type="button"
-                            onClick={e => {
-                                SendingEmail(e.target.value)
-                            }}>
-                        </button>
-                        <label>{errorValidEmail}</label>
+        //!הקלאסים לא התאימו לעיצוב אז שמתי בהערה
+        // <div className={`${isShowForgetPassword ? "active" : ""} show`}>
+        //     <div className="login-form">
+        //         <div className="form-box solid">
+                    // <form>//!לא היה צורך בתגית פורם ובכפתורים כי המודל יוצר אותם לבד 
+                    <Modal
+                        show={isShowForgetPassword}
+                        onCancel={handleForgetPasswordClick}
+                        onSubmit={e => {
+                            e.preventDefault();
+                            console.log('הולך לפונקציה sendingEmail')
+                            SendingEmail(e.target.value);
+                        }} //!לקחתי מהכפתור שכתבת למטה את הפונקציה את הזאת
+                        header="שכחתי סיסמא"
+                        modalButtonLeft="אישור"
+                        modalButtonRight="בטל"
+                        width="40%"
+                        left="30%"
+                        right="30%"
+                    >
+                        <div className="forget-password">
+                            <label htmlFor="username">קוד משתמש/ת</label>
+                            <input id="username" type="text" name="username" onChange={(e)=>{setUsername(e.target.value)}} />
 
-                    </form>
-                </div>
-             </div>
+                            {//!במקום הכפתור פה למטה- העברתי את הפונקציית קליק שלו למודל. הוא כבר ישים את זה על הכפתורים שבמודל
+}
+                            {/* <button
+                                value="אישור" className="login-btn"
+                                type="button"
+                                onClick={e => {
+                                    SendingEmail(e.target.value)
+                                }}>
+                            </button> */}
+
+                            <label>{errorValidEmail}</label>
+                        </div>
+                    </Modal>
+                    // </form>
+            //     </div>
+            //  </div>
         // </div>
     );
 };

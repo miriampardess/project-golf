@@ -16,10 +16,32 @@ import '../css/golf-rtl.css'
 import '../css/golfstyle.css'
 import '../css/reset.css'
 import 'reactjs-popup/dist/index.css'
+import { useState } from 'react'
 
 export default function EntranceControl() {
+
+    //!סטייט לפופ אפ שאין הזמנות - תעדכני אותו לטרו איפה שצריך
+    const [showNoOrdersPopup , setShowNoOrdersPopup] = useState(false);
+
+    //!לסגירת הפופאפ
+    const handleClosePopup =()=>{
+        setShowNoOrdersPopup(false)
+    }
+
     return (
         <div >
+            {/* //! פופאפ ללא נמצאו הזמנות 
+            */}
+                    <Modal
+                      show={showNoOrdersPopup}
+                      onCancel={setShowNoOrdersPopup} 
+                      header="Tee Time"
+                      modalButtonLeft="Ok"
+                      left="35%"
+                      right="35%"
+                    >
+                      <p>לא נמצאו הזמנות</p>
+                    </Modal>
             {/* <html lang="he" /> */}
 
             <title>Tee Time</title>

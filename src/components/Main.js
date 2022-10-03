@@ -1,16 +1,18 @@
 
+import { useNavigate } from 'react-router-dom';
 import player from '../images/player.jpg'
 import Footer from './Footer'
 import Header from './Header'
 
 //css
-import '../css/golf-rtl.css'
-import '../css/golfstyle.css'
-import '../css/reset.css'
+// import '../css/golf-rtl.css'
+// import '../css/golfstyle.css'
+// import '../css/reset.css'
 
 export default function Main(props) {
     const { envDefaults,username, password } = props;
 
+    const navigate=useNavigate();
 console.log("username",username);
 console.log("password",password);
 
@@ -41,7 +43,9 @@ console.log("password",password);
 
             <body>
                 <div className="container">
-                    <div className="jumbotron TopDashboard nopadding" > <a className="btn btn-success btn-lg" href="#" role="button">הזמן משחק &raquo;</a> </div>
+                    <div className="jumbotron TopDashboard nopadding" >
+                        <button className="btn btn-success btn-lg"  role="button" onClick={()=>navigate('/GameOrder')}>הזמן משחק </button> 
+                    </div>
                     <div className="row">
                         <div className="col-xs-12 col-sm-6 col-md-4 cl-lg-4 PaddingBottom20 ">
                             <div className="rss_box Border-dir">
